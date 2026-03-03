@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <title>colorfulsky PORT FOLIO</title>
+<!-- ファビコン -->
+	<link rel="icon" type="image/png" href="image/flog_logo.png">
+
+<!-- CSSリンク -->
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Article h2,footer h2のフォント -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Paprika&display=swap" rel="stylesheet">
+
+	<meta name="description" content="こちらは、colorfulskyことRoko Ohtaの個人サイトになります。">
+	<meta name="viewport" content="width=device-width">
+
+</head>
+
+<body>
+<!-- ヘッダーとナビ表示 -->
+<header class="header">
+        <a href="index.html"><img src="image/logo4@2x-8.png" width="300" height="70" alt="ロゴ画像" class="logo-img"></a>
+    <nav>
+        <button class="nav-close" aria-label="メニューを閉じる"></button>
+
+            <ul>
+                <li><a href="index.html">Top</a></li>
+                <li><a href="#point1">About</a></li>
+                <li><a href="#point4">Works</a></li>
+                <li><a href="#point3">Skills</a></li>
+                <li><a href="#point2">Career</a></li>
+                <li><a href="https://forms.gle/TwFuAgfc1x5J4PG37" target="_blank" rel="noopener noreferrer">Contact</a></li>
+            </ul>
+
+    <!-- navにハンバーガーを置く設定 -->
+        <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+        </button>
+
+    </nav>
+</header>
+
+<img src="image/climber_down.png" width="100" height="100" alt="クライマーアイコン" class="climber-image" id="climber">
+
+<!-- ↓ここからメイン記事 -->
+    <article class="article">
+	    <img src="image/climbing1.webp" width="700" height="500" alt="山の写真" class="point-img">
+
+<!-- 自己紹介 -->
+    <section id="point1" class="about">
+    <h2>About me</h2>
+
+    <div class="about-wrapper">
+
+        <div class="about-left">
+            <img src="image/jigazo2-1.png" alt="プロフィール画像" class="profile-img">
+        </div>
+
+        <div class="about-text">
+            <h3>Ryoko Ohta</h3>
+            <p>&nbsp; 埼玉県川口市出身。大学で電子工学を専攻した後、半導体メーカーにて約8年間勤務しました。製造現場でのデータ測定や解析、資料作成を通じ、論理的な思考と正確に物事を進める基礎を築きました。</p>
+			<p> &nbsp; その後、写真への興味からブライダルアルバムの制作会社へ転身。写真編集の実務を通じて「デザインで想いを伝える楽しさ」を実感し、職業訓練にてWebデザインとコーディングの道を志しました。</p>
+			<h3>性格と仕事への向き合い方</h3>
+			<p> &nbsp; 「真面目にコツコツと取り組む」ことが強みです。前職の事務や制作の現場でも、常に「もっと効率化できるところはないか」を探し、実行に移してきました。Web制作においても、保守性の高いコードを書くことや、作業の効率化を常に意識して取り組んでいます。</p>
+			<h3>趣味・ライフスタイル</h3>
+			<p> &nbsp; 現在はクライミングに没頭しており、ジムや外岩でアクティブに活動しています。学生時代から体を動かすことが好きで、粘り強く目標（ルート）を攻略する楽しさは、プログラミングの課題解決にも通じると感じています。その他、映画鑑賞やドライブ、道の駅巡りなども楽しんでいます。
+            </p>
+        </div>
+
+        </div>
+    </section>
+
+
+<!-- Works作品入れる -->
+	<section>
+    <h2><a id="point4">Works &nbsp; Web-site</a></h2>
+
+<!-- community-site -->
+	<div class="work-item" onclick="toggleDetails('details-community')">
+
+    <h3>地域団体公式サイト（街づくりラボ ASOBI-X）</h3>
+    <p><a href="https://colorful01sky-creator.github.io/community-site/" target="_blank">▶ サイトはこちら</a></p>
+
+    	<th><img src="image/community-site.webp" width="700" height="400" alt="地域団体サイトの画像"></th>
+	</div>
+
+
+    	<table>
+        	<tr><th>制作種別</th><td>自主制作</td></tr>
+        	<tr><th>使用ツール</th><td>HTML / CSS / GitHub Pages</td></tr>
+        	<tr><th>概要</th>
+        	<td>HTML5/CSS3を使用した地域団体を意識したサイト（レスポンシブ対応）。</td></tr>
+        	<tr><th>制作の目的</th>
+        	<td>団体の活動内容を分かりやすく伝え、新規参加者や問い合わせを増やすこと。
+        	</td></tr>
+			<tr><th>制作ポイント</th>
+        	<td>温かい雰囲気と地元発信の新しさを感じてほしく、見やすさを追求しました。<br>現在も運用のしやすさを考慮してブラッシュアップを継続中です。
+        	</td></tr>
+    	</table>
+
+
+<!-- WordPressサイト -->
+	<div class="work-item" onclick="toggleDetails('details-inuwashi')">
+
+    <h3>山小屋サイト（イヌワシ岳山荘）</h3>
+    <p><a href="https://colorfu01.stars.ne.jp/inuwashidake_sanso/" target="_blank">▶ サイトはこちら</a></p>
+
+    	<th><img src="image/inuwashi_sanso.jpg" width="700" height="400" alt="山小屋サイトの画像"></th>
+	</div>
+
+
+        <table>
+            <tr><th>制作種別</th><td>自主制作</td></tr>
+            <tr><th>概要</th>
+            <td>WordPressを用いた山岳山荘の紹介・宿泊案内サイト。</td>
+            </tr>
+            <tr><th>制作目的</th>
+            <td>登山客が必要な情報（宿泊料金やアクセス）へスムーズに辿り着けるユーザビリティの実現。</td>
+            </tr>
+            <tr><th>制作ポイント</th>
+            <td>職業訓練の課題として制作しましたが、コンセプト立案からコンテンツ構成まで、すべて自ら企画しました。<br>必要な機能を実装するため、プラグインの選定とカスタマイズを行い、情報の探しやすさにこだわりました。</td>
+            </tr>
+        </table>
+
+<!-- cafe-site -->
+	<div class="work-item" onclick="toggleDetails('details-cafe')">
+
+    <h3>カフェサイト（ぬくもりカフェ）</h3>
+    <p><a href="https://colorful01sky-creator.github.io/cafe-site/" target="_blank">▶ サイトはこちら</a></p>
+
+    	<th><img src="image/cafe-site.webp" width="700" height="400" alt="カフェサイトの画像"></th>
+	</div>
+
+    	<table>
+        	<tr>
+				<th>制作種別</th>
+				<td>自主制作</td></tr>
+        	<tr>
+				<th>使用ツール</th><td>HTML / CSS / GitHub Pages</td></tr>
+        	<tr>
+				<th>概要</th>
+        		<td>HTML5/CSS3を使用したカフェのブランドサイト（レスポンシブ対応）。</td></tr>
+        	<tr>
+				<th>制作の目的</th>
+        	<td>店舗のコンセプトである「落ち着いた空間」を視覚的に再現し、新規顧客の来店意欲を促すこと。
+        	</td></tr>
+        	<tr>
+				<th>制作ポイント</th>
+        	<td>メンテナンス性を考慮したコード作成を意識。<br>配色と写真の加工にこだわり、ブランドイメージを一貫して表現しました。
+        	</td></tr>
+    	</table>
+
+<!-- バナー紹介 -->
+    <h2><a id="point5">Works &nbsp; banner</a></h2>
+    <div class="works-grid">
+
+    <div class="work-card wide">
+        <a href="banner.html#banner-hokkaido" class="img-link">
+        <img src="image/kadai_banner.jpg" alt="北海道のイメージ"></a>
+        <h3>夏旅 北海道バナー</h3>
+        <p>YouTube広告用バナー制作</p>
+        <a href="banner.html#banner-hokkaido" class="detail-link" target="_blank" rel="noopener noreferrer">詳細を見る →</a>
+    </div>
+
+
+    <div class="work-card wide">
+        <a href="banner.html#banner-pcschool" class="img-link">
+        <img src="image/kadai_banner2.png" alt="PC教室の案内"></a>
+        <h3>PC教室のバナー</h3>
+        <p>Photoshopを使ってのバナー制作</p>
+        <a href="banner.html#banner-pcschool" class="detail-link" target="_blank" rel="noopener noreferrer">詳細を見る →</a>
+    </div>
+
+
+    <div class="work-card wide">
+        <a href="bbanner.html#banner-mikaku" class="img-link">
+        <img src="image/autumn_mikaku.jpg" alt="秋の味覚のイメージ"></a>
+        <h3>秋の味覚バナー</h3>
+        <p>Photoshopを使ってのバナー制作</p>
+        <a href="banner.html#banner-mikaku" class="detail-link" target="_blank" rel="noopener noreferrer">詳細を見る →</a>
+    </div>
+
+
+    <div class="work-card square">
+        <a href="banner.html#banner-biyoushi" class="img-link">
+        <img src="image/biyoushi_1.jpg" alt="訪問美容師"></a>
+        <h3>訪問美容師のバナー</h3>
+        <p>友人からのヒアリングしたバナー制作</p>
+        <a href="banner.html#banner-biyoushi" class="detail-link" target="_blank" rel="noopener noreferrer">詳細を見る →</a>
+    </div>
+
+
+    <div class="work-card square">
+        <a href="banner.html#banner-sweets" class="img-link">
+        <img src="image/autumn_sweets.webp" alt="秋のsweets"></a>
+        <h3>秋のスイーツバナー</h3>
+        <p>期間限定を意識したしたバナー制作</p>
+        <a href="banner.html#banner-sweets" class="detail-link" target="_blank" rel="noopener noreferrer">詳細を見る →</a>
+    </div>
+    </div>
+
+
+    <!-- Skillのパラメータと補足 -->
+        <section>
+		<!-- About meの回り込み解除とリンク先 -->
+            <h2><a id="point3">Skills</a></h2>
+            <div class="icon-container">
+                <div class="icon-item"><img src="image/html_css.jpg" width="150" height="150" alt="HTMLアイコン"></div>
+                <div class="icon-item"><img src="image/PS.jpg" width="150" height="150" alt="Photoshopアイコン"></div>
+                <div class="icon-item"><img src="image/Ai.jpg" width="150" height="150" alt="Illustratorアイコン"></div>
+                <div class="icon-item"><img src="image/wordpress.jpg" width="150" height="150" alt="WordPressアイコン"></div>
+                <div class="icon-item"><img src="image/word.jpg" width="150" height="150" alt="Wordアイコン"></div>
+                <div class="icon-item"><img src="image/Excel.jpg" width="150" height="150" alt="Excelアイコン"></div>
+                <div class="icon-item"><img src="image/powerpoint.jpg" width="150" height="150" alt="PowerPointアイコン"></div>
+                <div class="icon-item"><img src="image/canva.png" width="150" height="150" alt="Canvaアイコン"></div>
+            </div>
+
+             <ul class="skill-list">
+                <li><img src="image/zenshoku.jpg" width="20" height="20" alt="青色アイコン">前職</li>
+                <li><img src="image/kunren.jpg" width="20" height="20" alt="橙アイコン">職業訓練</li>
+                <li><img src="image/dokugaku.png" width="20" height="20" alt="薄い青">独学</li>
+				<li><img src="image/michisu.jpg" width="20" height="20" alt="ベージュアイコン">これから習得予定</li>
+           </ul>
+		<div class="skills-strong">
+            <p><strong>HTML&CSS</strong><br>
+				レスポンシブデザインをもっと見やすくわかりやすくを習得予定です。保守しやすく、修正に強いコード作成を常に意識しています。</p>
+
+			<p><strong>WordPress</strong><br>既存テーマのカスタマイズから、プラグインの選定・導入まで対応可能。クライアントが更新しやすいサイト設計を目指しています。</p>
+
+			<p><strong>Photoshop / Illustrator</strong><br>写真編集の実務経験（約6年）をベースに、Web向けのバナー制作や素材加工、ロゴ制作など、目的に合わせたビジュアル作成が可能です。</p>
+
+			<p><strong>Microsoft Office (Excel / Word / PPT)</strong><br>前職の技術職・事務職で長年使用。データ解析やプレゼン資料作成など、正確さとスピードを両立した作業が得意です。</p>
+
+			<p><strong>今後の展望</strong><br>JavaScriptや各種フレームワークなど、ユーザー体験を高めるための技術を積極的に習得中です。</p>
+		</div>
+
+        </section>
+
+
+    <!-- 軽く職歴の紹介 -->
+    <section>
+        <h2 class="career"><a id="point2">Career</a></h2>
+        <h3>Webデザイン関連（写真編集・画像作成 / 実務計約6年）</h3>
+			<img src="image/design.jpg" width="150" height="150" alt="写真のイメージ" class="point-img3">
+                <p>ブライダルアルバム制作、アプリ用クーポン画像作成。</p>
+				<p>写真の魅力を最大限に引き出す「レタッチ技術」と、ターゲットに響く「視覚的アプローチ」の実践経験です。</p>
+
+        <h3 class="career">事務職（データ入力・マニュアル作成 / 約5年）</h3>
+			<img src="image/jimushoku.jpg" width="150" height="150" alt="事務のイメージ" class="point-img3">
+                <p>適応力を活かし、多様な環境で業務効率化を推進。</p>
+				<p>誰が見ても分かりやすい「情報整理（ドキュメント作成能力）」と、常に改善を探す「効率化の視点」を培いました。</p>
+
+        <h3 class="career">技術職（半導体メーカー / 約8年）</h3>
+			<img src="image/gijutushoku.jpg" width="150" height="150" alt="半導体のイメージ" class="point-img3">
+                <p>電子機器の解析・評価、プレゼン資料作成。</p>
+   				<p>複雑なデータを整理し、論理的に構築する「設計力」と「正確さ」の土台となりました。</p>
+        </section>
+
+
+    <!-- ひとこと -->
+        <section>
+            <h2 class="font">ひとこと</h2>
+            <p>最後までご覧いただき、ありがとうございます。</p>
+            <p>異業種からの挑戦ですが、これまでの技術職や事務職で培った「論理的思考」と「効率化へのこだわり」を、Web制作という新しいフィールドで活かしたいと考えています。</p>
+            <p>「わかりやすさ」と「ユーザー目線」を大切に、課題解決に貢献できる制作者を目指して、日々新しい技術の習得に邁進しています。</p>
+        </section>
+
+   </article>
+<!-- ↑ここまでメイン記事 -->
+
+<!-- ここからフッター -->
+   <footer id="footer">
+	<h2>Contact
+        <a href="https://www.instagram.com/colorfulsky_design/" target="_blank" class="instagram-icon-link">
+            <img src="image/insta_climer.png" alt="Instagramアイコン" class="instagram-icon">
+        </a>
+    </h2>
+	 <address>
+        <a href="mailto:colorful01sky@gmail.com?subject=ポートフォリオサイトからの問い合わせ">E-mail：colorful01sky@gmail.com</a><br>
+            TEL：090-XXX-XXXX<br>
+            Address：〒473-2400 埼玉県さいたま市鎮守の森区7-8-5
+        </address>
+        <small>&copy;2025 colorfulsky All Rights Reserved.</small>
+    </footer>
+<!-- ここまでフッター -->
+
+
+<script>
+  const hamburger = document.getElementById("hamburger");
+const navMenu = document.querySelector("nav ul");
+
+  // ハンバーガーの開閉
+  hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("active");
+  navMenu.classList.toggle("active");
+  body.classList.toggle("menu-open"); // 背景を暗くするクラスを付け外し
+  });
+
+  const closeBtn = document.querySelector(".nav-close");
+
+  closeBtn.addEventListener("click", () => {
+  hamburger.classList.remove("active");
+  navMenu.classList.remove("active");
+  body.classList.remove("menu-open");
+});
+
+  // リンクをクリックしたら閉じる
+  const navLinks = document.querySelectorAll("nav ul a");
+  navLinks.forEach(link => {
+  link.addEventListener("click", () => {
+  hamburger.classList.remove("active");
+  navMenu.classList.remove("active");
+  body.classList.remove("menu-open"); // ここでもクラスを外す
+  });
+    });
+
+
+// 詳細を表示・非表示にする関数
+function toggleDetails(detailsId) {
+    var clickedDetails = document.getElementById(detailsId);
+
+
+    // クリックされた詳細の表示・非表示を切り替える
+    clickedDetails.classList.toggle('is-visible');
+}
+</script>
+
+
+<!-- クライマーの動き javascript -->
+<script>
+    // クライマーの画像要素とフッターの要素を取得します
+    const climberImage = document.getElementById('climber');
+    const footer = document.getElementById('footer');
+
+    // 画像の初期位置と差し替え用の画像のURLを設定します
+    const initialTop = 80;
+    const initialImageSrc = 'image/climber_down.png';
+    const finalImageSrc = 'image/Climb_goal.png';
+
+    // スクロールイベントを監視する関数
+    function handleScroll() {
+        // 現在のスクロール量（縦方向）を取得します
+        const scrollY = window.scrollY || document.documentElement.scrollTop;
+
+        // ページのコンテンツ全体の高さを取得します
+        const bodyHeight = document.body.scrollHeight;
+
+        // ブラウザの表示領域の高さを取得します
+        const windowHeight = window.innerHeight;
+
+        // スクロール可能な最大の高さを計算します
+        const maxScrollHeight = bodyHeight - windowHeight;
+
+        // スクロール位置の割合を計算 (0から1までの値)
+        const scrollRatio = maxScrollHeight > 0 ? scrollY / maxScrollHeight : 0;
+
+        // クライマーの最終着地点を計算
+        // クライマーの画像の高さとフッターの高さを考慮
+        const finalClimberTop = windowHeight - footer.offsetHeight - climberImage.clientHeight;
+
+        // クライマーが移動できる距離を計算 (初期位置から最終着地点まで)
+        const travelDistance = finalClimberTop - initialTop;
+
+        // スクロール割合に応じて新しいクライマーの位置を計算します
+        let newTop = initialTop + travelDistance * scrollRatio;
+
+        // 画像切り替えの条件を、フッターが見えたときに変更
+        if (footer.offsetTop <= scrollY + windowHeight) {
+            climberImage.src = finalImageSrc;
+            newTop = finalClimberTop; // 着地位置に固定
+            // 着地した時に'top-link'クラスを追加する
+            climberImage.classList.add('top-link'); // これが大事な行だよ！
+        } else {
+            climberImage.src = initialImageSrc;
+            // 着地していない時は'top-link'クラスを削除する
+            climberImage.classList.remove('top-link');
+        }
+
+        // 新しい位置をクライマー画像に適用
+        climberImage.style.top = newTop + 'px';
+    }
+
+    // スクロールイベントが発生するたびに、関数を実行
+    window.addEventListener('scroll', handleScroll);
+
+    // クライマーの画像がクリックされた時のイベントを設定
+    climberImage.addEventListener('click', function() {
+        // クライマーが着地（ゴール）しているかチェックする
+        if (this.classList.contains('top-link')) {
+            // スムーズにページのトップへスクロールする
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+    });
+
+</script>
+
+</body>
+</html>
