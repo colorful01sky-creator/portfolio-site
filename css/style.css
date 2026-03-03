@@ -282,8 +282,6 @@ section {
 }
 
 
-
-
 /* クリックで表示される詳細部分のスタイル */
 
 .work-item img{
@@ -357,73 +355,6 @@ footer address a:hover{
     transform: scale(1.1); /* マウスホバー時に少し拡大 */
 }
 
-/* --- お問い合わせフォーム --- */
-.contact-article {     /* ヘッダーと重ならない設定 */
-    padding-top: 100px;
-}
-.contact-color {
-    background-color:  rgb(248, 240, 225);
-}
-.sub-h1 {
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 20px;
-}
-.contact-p{
-    text-align: center;
-}
-/* フォームの入力スペース全体のスタイル */
-ol li{
-    display: inline;
-    font-size:90%;
-    margin-right:5px;
-    font-weight: bold;
-}
-ol li a {
-    color: blue;
-}
-ol li a:hover {      /* マウスポイントしたとき */
-    color:  rgb(226, 92, 9);
-}
-.form {
-    width: 400px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-form p {            /* ラベルと入力欄のレイアウト調整 */
-    margin-bottom: 20px;
-}
-label {
-    display: block;
-    margin-bottom: 8px;
-    font-weight: bold;
-}
-textarea{
-    width: 400px;
-    height: 120px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-}
-button {       /* ボタンの設定 */
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-button:hover {     /* ボタンをマウスポイントしたとき */
-    background-color: #0056b3;
-}
-.form-container {     /* フォームを真ん中に配置する */
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-}
 
 /* --- スマホメニュー(ハンバーガー) --- */
 .hamburger {
@@ -567,6 +498,8 @@ article ul {
 /*---ハンバーガーの設定---*/
 .hamburger {
     display: block;
+    background-color: #b3e5fc;
+    border-radius: 5px;
     }
       /* スマホの時、右側にメニューを隠しておく */
   nav ul {
@@ -576,7 +509,7 @@ article ul {
     right: -100%; /* これで画面の外に隠れる */
     width: 40%;    /* メニューの幅 */
     height: 100vh;
-    background-color: rgba(111,175,122,0.85); /*背景の色 */
+    background-color: #b3e5fc;
     backdrop-filter: blur(4px);
     flex-direction: column;
     justify-content: center;
@@ -592,7 +525,7 @@ article ul {
   }
   /* メニュー内の文字の設定 */
   nav ul li a {
-    color: rgb(25, 24, 24);
+    color: #333;
     font-size: 1.2rem;
     text-decoration: none;
     font-weight: bold;
