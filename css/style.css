@@ -533,6 +533,12 @@ article ul {
     text-decoration: none;
   }
 
+  nav ul li {
+    margin: 0;
+    padding: 0;
+    height: auto;
+  }
+
   .about-wrapper {
     flex-direction: column;
     gap: 30px;
