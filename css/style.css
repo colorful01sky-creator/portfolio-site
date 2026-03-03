@@ -425,7 +425,7 @@ nav {
 /* 959px以下の場合 タブレット */
 @media(max-width:959px){
 nav ul {
-        overflow-x: auto; /* 959px以下の場合に横スクロールを許可 */
+        overflow-x: auto;
 }
 article{
     width: auto;
@@ -434,7 +434,6 @@ article img{
     max-width: 100%;
     height: auto;
 }
-
 }
 
 
@@ -514,7 +513,7 @@ article ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 15px;
     z-index: 1000;
     transition: 0.4s; /* スライドする動き */
     }
@@ -526,7 +525,7 @@ article ul {
   /* メニュー内の文字の設定 */
   nav ul li a {
     color: #333;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-decoration: none;
     font-weight: bold;
   }
@@ -633,7 +632,6 @@ article li {
 .hamburger {
     display: block;
     }
-      /* スマホの時、右側にメニューを隠しておく */
 
   /* ボタンを押したとき（activeクラス）に画面内に入れる */
   nav ul.active {
