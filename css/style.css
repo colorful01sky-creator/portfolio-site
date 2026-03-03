@@ -506,16 +506,19 @@ article ul {
     position: fixed;
     top: 0;
     right: -100%; /* これで画面の外に隠れる */
-    width: 40%;    /* メニューの幅 */
+    width: 60%;    /* メニューの幅 */
     height: 100vh;
-    background-color: red;
+    background-color: #b3e5fc;
     backdrop-filter: blur(4px);
     flex-direction: column;
-    justify-content: center;
+
+    justify-content: flex-start;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
+    padding-top: 80px;
     z-index: 1000;
-    transition: 0.4s; /* スライドする動き */
+    transition: 0.4s;
+    overflow-y: auto;
     }
 
   /* ボタンを押したとき（activeクラス）に画面内に入れる */
@@ -524,10 +527,10 @@ article ul {
   }
   /* メニュー内の文字の設定 */
   nav ul li a {
+    padding: 8px 20px;
     color: #333;
-    font-size: 1.1rem;
+    font-size: 1rem;
     text-decoration: none;
-    font-weight: bold;
   }
 
   .about-wrapper {
